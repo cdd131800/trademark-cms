@@ -1,0 +1,439 @@
+10:25:42.029 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:25:46.387 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:26:35.914 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:26:39.247 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:30:41.643 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:30:45.005 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:34:01.422 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:34:05.194 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:34:34.653 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:34:38.053 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:37:41.391 [http-nio-8083-exec-4] WARN   org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+10:49:31.841 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:49:35.238 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+10:51:08.223 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+10:51:11.555 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:16:14.207 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:16:17.883 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:17:37.993 [http-nio-8083-exec-4] WARN   org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+11:18:16.282 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:18:19.751 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:19:04.154 [http-nio-8083-exec-4] WARN   org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+11:20:24.240 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:20:27.696 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:20:52.806 [http-nio-8083-exec-4] WARN   org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+11:23:13.914 [http-nio-8083-exec-8] WARN  75b35971-7e5c-4520-b6d3-c7b15d3333b4 org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.trademark.cms.common.exception.CmsExceptionHandler#exceptionHandler(HttpServletRequest, Exception)
+java.lang.NoClassDefFoundError: com/trademark/cms/common/enums/CmsErrorCodeEnum
+	at com.trademark.cms.common.exception.CmsExceptionHandler.exceptionHandler(CmsExceptionHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.trademark.cms.common.enums.CmsErrorCodeEnum
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 77 common frames omitted
+11:23:44.761 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:23:48.761 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:25:59.589 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:26:03.136 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:28:05.095 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:28:08.494 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:28:26.226 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:28:29.527 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+11:29:08.812 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+11:29:12.213 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:12:51.823 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:12:57.329 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:13:16.183 [http-nio-8083-exec-3] WARN   org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+14:13:50.774 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:13:54.107 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:21:56.722 [http-nio-8083-exec-5] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/admin/doLogins
+14:22:19.701 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:22:23.092 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:22:36.566 [http-nio-8083-exec-1] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/admin/doLogins
+14:22:47.027 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:22:50.424 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:23:04.056 [http-nio-8083-exec-1] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/admin/doLogins
+14:23:23.259 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:23:26.670 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+14:27:13.171 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+14:27:16.779 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:06:06.610 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:06:10.501 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:07:27.127 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:07:31.026 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:18:18.160 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:18:21.486 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:30:39.386 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:30:42.013 [main] WARN   org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cmsAdminController' defined in file [D:\workspace\idea\trademark-cms\trademark-cms-controller\target\classes\com\trademark\cms\controller\account\CmsAdminController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.code.kaptcha.Producer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:31:57.817 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:32:00.561 [main] WARN   org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cmsAdminController' defined in file [D:\workspace\idea\trademark-cms\trademark-cms-controller\target\classes\com\trademark\cms\controller\account\CmsAdminController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.code.kaptcha.Producer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+15:32:39.598 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:32:42.196 [main] WARN   org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cmsAdminController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.google.code.kaptcha.Producer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+15:43:57.352 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:44:00.925 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:48:52.392 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:48:55.699 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:51:40.744 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:51:44.400 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:57:38.629 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+15:57:42.011 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:19:04.728 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:19:08.821 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:20:55.819 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:20:59.245 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:23:16.331 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:23:19.701 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:24:41.245 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:24:44.558 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:26:58.939 [http-nio-8083-exec-5] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/unauth
+16:28:54.272 [http-nio-8083-exec-1] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/unauth
+16:29:03.619 [http-nio-8083-exec-2] WARN   org.springframework.web.servlet.PageNotFound - No mapping for GET /syoom-trademark/unauth
+16:30:37.050 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:30:40.481 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:39:27.856 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:39:31.295 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:40:33.066 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:40:36.421 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:41:02.011 [http-nio-8083-exec-3] WARN  a200feff-53dd-422d-90c2-1d7598b4535e org.apache.shiro.authc.AbstractAuthenticator - Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+java.lang.IllegalStateException: It is illegal to call this method if the current request is not in asynchronous mode (i.e. isAsyncStarted() returns false)
+	at org.apache.catalina.connector.Request.getAsyncContext(Request.java:1782)
+	at org.apache.catalina.connector.RequestFacade.getAsyncContext(RequestFacade.java:1068)
+	at javax.servlet.ServletRequestWrapper.getAsyncContext(ServletRequestWrapper.java:486)
+	at com.alibaba.fastjson.serializer.ASMSerializer_3_ShiroHttpServletRequest.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.writeWithFieldName(JSONSerializer.java:333)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_WebDelegatingSubject.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:285)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:758)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:696)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:661)
+	at com.trademark.cms.controller.shiro.CmsShiroRealm.doGetAuthenticationInfo(CmsShiroRealm.java:87)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:273)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:275)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at com.trademark.cms.controller.account.CmsAdminController.doLogin(CmsAdminController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:42:20.503 [http-nio-8083-exec-2] WARN  d06d7672-48df-4349-9137-03a765eeca4b org.apache.shiro.authc.AbstractAuthenticator - Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+java.lang.IllegalStateException: It is illegal to call this method if the current request is not in asynchronous mode (i.e. isAsyncStarted() returns false)
+	at org.apache.catalina.connector.Request.getAsyncContext(Request.java:1782)
+	at org.apache.catalina.connector.RequestFacade.getAsyncContext(RequestFacade.java:1068)
+	at javax.servlet.ServletRequestWrapper.getAsyncContext(ServletRequestWrapper.java:486)
+	at com.alibaba.fastjson.serializer.ASMSerializer_3_ShiroHttpServletRequest.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.writeWithFieldName(JSONSerializer.java:333)
+	at com.alibaba.fastjson.serializer.ASMSerializer_1_WebDelegatingSubject.write(Unknown Source)
+	at com.alibaba.fastjson.serializer.JSONSerializer.write(JSONSerializer.java:285)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:758)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:696)
+	at com.alibaba.fastjson.JSON.toJSONString(JSON.java:661)
+	at com.trademark.cms.controller.shiro.CmsShiroRealm.doGetAuthenticationInfo(CmsShiroRealm.java:87)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:273)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:275)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at com.trademark.cms.controller.account.CmsAdminController.doLogin(CmsAdminController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:43:35.111 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:43:38.683 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:46:10.302 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:46:13.599 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:51:16.583 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:51:19.926 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+16:54:21.243 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+16:54:24.921 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:11:09.644 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:11:12.956 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:12:44.226 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:12:47.534 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:13:54.043 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:13:57.663 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:16:13.011 [http-nio-8083-exec-3] WARN  09f27342-b551-4203-9e52-24eb4e09dda5 org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Failure in @ExceptionHandler com.trademark.cms.common.exception.CmsExceptionHandler#exceptionHandler(HttpServletRequest, Exception)
+java.lang.NoClassDefFoundError: com/trademark/cms/common/enums/CmsErrorCodeEnum
+	at com.trademark.cms.common.exception.CmsExceptionHandler.exceptionHandler(CmsExceptionHandler.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:403)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1300)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1111)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.trademark.cms.common.enums.CmsErrorCodeEnum
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 67 common frames omitted
+17:16:30.046 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:16:33.529 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:23:44.371 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:23:48.147 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:26:34.250 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:26:37.805 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:28:14.827 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:28:18.181 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:29:39.597 [main] WARN   tk.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.trademark.cms.controller]' package. Please check your configuration.
+17:29:42.961 [main] WARN   org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.

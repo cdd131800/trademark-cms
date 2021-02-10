@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.trademark.cms.dao.mapper.CmsUserBaseMapper">
+    <resultMap id="BaseResultMap" type="com.trademark.cms.dao.entity.CmsUserBase">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="userole_id" jdbcType="INTEGER" property="userId"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="user_account" jdbcType="VARCHAR" property="userAccount"/>
+        <result column="user_password" jdbcType="VARCHAR" property="userPassword"/>
+        <result column="user_mobile" jdbcType="VARCHAR" property="userMobile"/>
+        <result column="user_email" jdbcType="VARCHAR" property="userEmail"/>
+        <result column="user_portrait" jdbcType="VARCHAR" property="userPortrait"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="modify_id" jdbcType="INTEGER" property="modifyId"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+    </resultMap>
+</mapper>

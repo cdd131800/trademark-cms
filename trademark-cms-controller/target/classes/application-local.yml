@@ -1,0 +1,61 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /syoom-trademark
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/trademark?useunicode=true&characterencoding=gbk&autoreconnect=true&failoverreadonly=false&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password:
+    druid:
+      pool-prepared-statements: true
+      max-wait: 60000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      connect-properties:
+        config.decrypt: true
+        config.decrypt.key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIHZCgcRmotdxRyTJKRBYKDni8lH2O+GYP6E4Y74GSAyhF1rnTpmrn4E6x4z0r9ghyoKiUtqxsUUW6FxggDJi28CAwEAAQ==
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 2000
+        config:
+          enabled: true
+      initial-size: 5
+      min-idle: 10
+      max-active: 20
+
+
+
+  #thymelea模板配置
+  thymeleaf:
+    #检查模板路径是否存在
+    check-template-location: true
+    #指定模板所在的目录
+    prefix: classpath:/pages/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    #是否缓存，开发模式下设置为false，避免改了模板还要重启服务器，线上设置为true，可以提高性能。
+    cache: false
+    enabled: true
+mybatis:
+  typeAliasesPackage: com.trademark.cms.dao
+  mapper-locations: classpath*:mapper/*.xml
+  configLocations: classpath:mybatis-config-management.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    root: info
+    com.taikang: debug
+
+
+

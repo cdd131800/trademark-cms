@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<settings>
+        &lt;!&ndash; 打印查询语句 &ndash;&gt;
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>-->
+    <typeAliases>
+        <!-- 管理员基本信息 -->
+        <typeAlias type="com.trademark.cms.dao.entity.CmsAdminBase" alias="CmsAdminBase"/>
+        <!-- 管理员展示信息 -->
+        <typeAlias type="com.trademark.cms.dao.vo.CmsAdminBaseVo" alias="CmsAdminBaseVo"/>
+        <!-- 角色基本信息 -->
+        <typeAlias type="com.trademark.cms.dao.entity.CmsRoleBase" alias="CmsRoleBase"/>
+        <!-- 角色基本信息 -->
+        <typeAlias type="com.trademark.cms.dao.entity.CmsMenuBase" alias="CmsMenuBase"/>
+    </typeAliases>
+</configuration>

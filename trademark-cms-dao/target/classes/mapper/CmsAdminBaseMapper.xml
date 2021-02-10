@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.trademark.cms.dao.mapper.CmsAdminBaseMapper">
+    <resultMap id="BaseResultMap" type="CmsAdminBase">
+        <id column="admin_id" jdbcType="INTEGER" property="adminId"/>
+        <result column="admin_account" jdbcType="VARCHAR" property="adminAccount"/>
+        <result column="admin_password" jdbcType="VARCHAR" property="adminPassword"/>
+        <result column="admin_name" jdbcType="VARCHAR" property="adminName"/>
+        <result column="admin_mobile" jdbcType="VARCHAR" property="adminMobile"/>
+        <result column="admin_email" jdbcType="VARCHAR" property="adminEmail"/>
+        <result column="admin_description" jdbcType="VARCHAR" property="adminDescription"/>
+        <result column="is_lock" jdbcType="TINYINT" property="isLock"/>
+        <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+        <result column="modify_id" jdbcType="INTEGER" property="modifyId"/>
+        <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+    </resultMap>
+    <!-- 用户关联的角色和菜单列表 -->
+    <resultMap id="AdminInfoResultMap" type="CmsAdminBaseVo" extends="BaseResultMap">
+        <result column="is_admin" jdbcType="BOOLEAN" property="isAdmin"/>
+        <result column="is_super_admin" jdbcType="BOOLEAN" property="isSuperAdmin"/>
+        <collection property="roles" column="role_id" ofType="CmsRoleBase">
+            <id column="role_id" jdbcType="INTEGER" property="roleId"/>
+            <result column="role_name" jdbcType="VARCHAR" property="roleName"/>
+            <result column="role_key" jdbcType="VARCHAR" property="roleKey"/>
+            <result column="role_description" jdbcType="VARCHAR" property="roleDescription"/>
+            <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+            <result column="modify_id" jdbcType="INTEGER" property="modifyId"/>
+            <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        </collection>
+        <collection property="menus" column="menu_id" ofType="CmsMenuBase">
+            <id column="menu_id" jdbcType="INTEGER" property="menuId"/>
+            <result column="menu_name" jdbcType="VARCHAR" property="menuName"/>
+            <result column="menu_code" jdbcType="VARCHAR" property="menuCode"/>
+            <result column="menu_url" jdbcType="VARCHAR" property="menuUrl"/>
+            <result column="menu_type" jdbcType="TINYINT" property="menuType"/>
+            <result column="menu_description" jdbcType="VARCHAR" property="menuDescription"/>
+            <result column="menu_parent_id" jdbcType="INTEGER" property="menuParentId"/>
+            <result column="menu_sort" jdbcType="INTEGER" property="menuSort"/>
+            <result column="is_deleted" jdbcType="TINYINT" property="isDeleted"/>
+            <result column="modify_id" jdbcType="INTEGER" property="modifyId"/>
+            <result column="modify_time" jdbcType="TIMESTAMP" property="modifyTime"/>
+        </collection>
+    </resultMap>
+
+    <select id="findAdminByAccount" resultMap="AdminInfoResultMap">
+        SELECT  m.*, ur.* FROM
+        cms_menu_base m CROSS JOIN cms_role_menu_mapper mm ON mm.menu_id = m.menu_id
+        RIGHT JOIN
+        (
+            SELECT
+                r.role_id, r.role_name , u.*, (
+                    select count(1)>0 &amp; u.is_deleted=0 &amp; r.is_deleted=0 from cms_admin_role_mapper ur, cms_role_base r where ur.role_id=r.role_id and ur.admin_id=u.admin_id and r.role_key = 'admin'
+                ) AS is_admin,(
+                    select count(1)>0 &amp; u.is_deleted=0 &amp; r.is_deleted=0 from cms_admin_role_mapper ur, cms_role_base r where ur.role_id=r.role_id and ur.admin_id=u.admin_id and r.role_key = 'super_admin'
+                ) AS is_super_admin
+            FROM cms_role_base r
+            CROSS JOIN cms_admin_role_mapper rm ON r.role_id=rm.role_id
+            RIGHT JOIN cms_admin_base u ON rm.admin_id=u.admin_id
+            WHERE u.is_deleted=0 AND u.admin_account = #{adminAccount, jdbcType=VARCHAR}
+        ) AS ur ON ur.role_id = mm.role_id
+        order by m.menu_sort desc
+    </select>
+
+    <select id="findAdminById" resultMap="AdminInfoResultMap">
+        SELECT  m.*, ur.* FROM
+        cms_menu_base m CROSS JOIN cms_role_menu_mapper mm ON mm.menu_id = m.menu_id
+        RIGHT JOIN
+        (
+            SELECT
+                r.role_id, r.role_name , u.*, (
+                    select count(1)>0 &amp; u.is_deleted=0 &amp; r.is_deleted=0 from cms_admin_role_mapper ur, cms_role_base r where ur.role_id=r.role_id and ur.admin_id=u.admin_id and r.role_key = 'admin'
+                ) AS is_admin,(
+                    select count(1)>0 &amp; u.is_deleted=0 &amp; r.is_deleted=0 from cms_admin_role_mapper ur, cms_role_base r where ur.role_id=r.role_id and ur.admin_id=u.admin_id and r.role_key = 'super_admin'
+                ) AS is_super_admin
+            FROM cms_role_base r
+            CROSS JOIN cms_admin_role_mapper rm ON r.role_id=rm.role_id
+            RIGHT JOIN cms_admin_base u ON rm.admin_id=u.admin_id
+            WHERE u.is_deleted=0 AND u.admin_id = #{adminId, jdbcType=VARCHAR}
+        ) AS ur ON ur.role_id = mm.role_id
+        order by m.menu_sort desc
+    </select>
+
+</mapper>
